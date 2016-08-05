@@ -1,0 +1,213 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "proxima-nova", sans-serif;
+  background-image: url("bg.png");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -125px;
+    visibility: hidden;
+}
+
+.nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  background-color: rgba(25,25,25,0.98);
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255,255,255,0.5);
+  border-bottom-width: thin;
+  color: white;
+  position: fixed;
+  width: 100%;
+  box-shadow: -5px 4px 10px rgba(0,0,0,.35);
+}
+
+.nav > h1 {
+  font-weight: normal;
+}
+
+.orgs {
+  padding-top: 135px;
+  padding-bottom: 50px;
+}
+
+.org {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 0px 20px 10px;
+  margin: 0px 5% 20px 5%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.5);
+  border-width: thin;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.org:hover {
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+.logo {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.logo > h2 {
+  font-weight: normal;
+  font-size: 1.35em;
+}
+
+.logo > img {
+  width: auto;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.info {
+  border-left-style: solid;
+  border-left-color: rgba(255,255,255,.5);
+  border-left-width: thin;
+  display: inline-block;
+  padding-left: 52px;
+  padding-top: 7px;
+  padding-bottom: 18px;
+  width: 50%;
+  vertical-align: top;
+}
+
+.learnmore {
+  font-size: 1.15em;
+  color: rgb(200,200,200);
+}
+
+.learnmore:visited {
+  color: rgb(200,200,200);
+}
+
+
+.learnmore:hover {
+  color: white;
+}
+
+.applybutton {
+  vertical-align: top;
+  padding-top: 45px;
+  display: inline-block;
+  width: 20%;
+}
+
+.apply {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F9A03F;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.apply:hover {
+  background-color: #F4A550;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.description {
+  display: inline-block;
+  width: 90%;
+}
+
+.apply {
+  display: inline-block;
+  width: 50%;
+}
+
+@media screen and (max-width: 1266px) {
+    .org {
+      width: 90%;
+      margin: 0px 5% 20px 5%;
+    }
+}
+@media screen and (max-width: 1125px) {
+    .org {
+      width: 95%;
+      margin: 0px 2.5% 20px 2.5%;
+    }
+}
+@media screen and (max-width: 1067px) {
+    .org {
+      width: 100%;
+      margin: 0px 0 20px 0;
+      border-radius: 0;
+      border-left-style:none;
+      border-right-style:none;
+    }
+    .nav {
+      padding-left:0;
+      text-align:center;
+    }
+}
+@media screen and (max-width: 1013px) {
+    .org {
+      width: 100%;
+      margin: 0px 0 20px 0;
+    }
+    .applybutton {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .apply {
+      margin-right: 4%;
+      width:75%;
+    }
+    .logo {
+      margin-left: 7%;
+    }
+}
+@media screen and (max-width: 475px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .orgs {
+    padding-top: 81px;
+    padding-bottom: 0px;
+  }
+  .org {
+    margin-bottom: -1px;
+  }
+}
+@media screen and (max-width: 423px) {
+    .logo {
+      width: 75%;
+    }
+    .info {
+      width: 75%;
+      border-style: none;
+    }
+}
