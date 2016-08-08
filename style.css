@@ -128,6 +128,13 @@ a.anchor {
   background-color: #F4A550;
 }
 
+.applyspring {
+  margin-top: -5px;
+  text-align: center;
+  width: 65%;
+  color: rgba(255,255,255,.5);
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -188,6 +195,11 @@ a:visited {
     }
     .logo {
       margin-left: 7%;
+    }
+    .applyspring {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 475px) {
