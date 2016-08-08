@@ -203,6 +203,9 @@ a:visited {
     }
 }
 @media handheld, screen and  (max-width: 475px) {
+  * {
+    pointer-events: none !important;
+  }
   h1 {
     font-size: 1.5em;
   }
@@ -212,9 +215,6 @@ a:visited {
   }
   .org {
     margin-bottom: -1px;
-  }
-  .org:hover {
-    background-color: rgba(0, 0, 0, 0.5);
   }
   .apply {
     margin-right: 5%;
