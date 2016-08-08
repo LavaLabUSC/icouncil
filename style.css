@@ -113,6 +113,13 @@ a.anchor {
   width: 20%;
 }
 
+.applyspringbutton {
+  vertical-align: top;
+  padding-top: 45px;
+  display: inline-block;
+  width: 20%;
+}
+
 .apply {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -189,6 +196,11 @@ a:visited {
       width: 100%;
       margin-bottom: 20px;
     }
+    .applyspringbutton {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
     .apply {
       margin-right: 4%;
       width:75%;
@@ -219,6 +231,9 @@ a:visited {
   .apply {
     margin-right: 5%;
     width:75%;
+  }
+  .applyspringbutton {
+    margin-left: -8px;
   }
 }
 @media handheld, screen and (max-width: 423px) {
