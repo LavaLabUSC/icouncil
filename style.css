@@ -216,10 +216,13 @@ a:visited {
 }
 @media handheld, screen and  (max-width: 475px) {
   * {
-    pointer-events: none !important;
+    pointer-events: none;
   }
   h1 {
     font-size: 1.5em;
+  }
+  a {
+    pointer-events: auto;
   }
   .orgs {
     padding-top: 81px;
