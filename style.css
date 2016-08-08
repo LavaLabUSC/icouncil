@@ -154,19 +154,19 @@ a:visited {
   width: 50%;
 }
 
-@media screen and (max-width: 1266px) {
+@media handheld, screen and (max-width: 1266px) {
     .org {
       width: 90%;
       margin: 0px 5% 20px 5%;
     }
 }
-@media screen and (max-width: 1125px) {
+@media handheld, screen and (max-width: 1125px) {
     .org {
       width: 95%;
       margin: 0px 2.5% 20px 2.5%;
     }
 }
-@media screen and (max-width: 1067px) {
+@media handheld, screen and (max-width: 1067px) {
     .org {
       width: 100%;
       margin: 0px 0 20px 0;
@@ -179,7 +179,7 @@ a:visited {
       text-align:center;
     }
 }
-@media screen and (max-width: 1013px) {
+@media handheld, screen and (max-width: 1013px) {
     .org {
       width: 100%;
       margin: 0px 0 20px 0;
@@ -202,7 +202,7 @@ a:visited {
       margin-bottom: 20px;
     }
 }
-@media screen and (max-width: 475px) {
+@media handheld, screen and  (max-width: 475px) {
   h1 {
     font-size: 1.5em;
   }
@@ -213,8 +213,12 @@ a:visited {
   .org {
     margin-bottom: -1px;
   }
+  .apply {
+    margin-right: 5%;
+    width:75%;
+  }
 }
-@media screen and (max-width: 423px) {
+@media handheld, screen and (max-width: 423px) {
     .logo {
       width: 75%;
     }
@@ -222,4 +226,22 @@ a:visited {
       width: 75%;
       border-style: none;
     }
+}
+@media handheld, screen and (max-width: 375px) {
+  .apply {
+    margin-right: 6%;
+  }
+}
+@media handheld, screen and (max-width: 350px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  .orgs {
+    padding-top: 69px;
+    padding-bottom: 0px;
+  }
+  .apply {
+    margin-right: 7%;
+    width:75%;
+  }
 }
