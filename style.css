@@ -49,8 +49,8 @@ a.anchor {
 .about {
     text-align: center;
     color: white;
-    padding-left: 35%;
-    padding-right: 35%;
+    padding-left: 32%;
+    padding-right: 32%;
     margin-top: 50px;
     margin-bottom: 75px;
 }
@@ -157,7 +157,7 @@ a.anchor {
 
 .applyspring {
   margin-top: -5px;
-  padding-top: 20px; 
+  padding-top: 20px;
   text-align: center;
   width: 65%;
   color: rgba(255,255,255,.5);
@@ -280,6 +280,9 @@ a:visited {
       margin-top: 75px;
       padding-left: 15%;
       padding-right: 15%;
+  }
+  .aboutdescription {
+      text-align: left;
   }
 }
 @media handheld, screen and (max-width: 423px) {
