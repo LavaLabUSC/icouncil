@@ -85,6 +85,10 @@ a.anchor {
     background-color: rgba(30, 30, 30, 0.5);
 }
 
+.anchor:target + .org {
+  border-color: #F9A03F;
+}
+
 .logo {
   display: inline-block;
   width: 20%;
@@ -156,7 +160,7 @@ a.anchor {
 }
 
 .apply:hover {
-  background-color: #F4A550;
+  background-color: #FAAD6B;
 }
 
 .applyspring {
